@@ -44,7 +44,6 @@ public class Main {
 
         ConcurrentHashMap<String, String> map = new ConcurrentHashMap<>();
 
-
         for (int i = 0; i < 10; i++) {
             new Thread(){
                 @Override
@@ -60,8 +59,6 @@ public class Main {
                 }
             }.start();
         }
-
-
     }
 
     @Test
